@@ -1,0 +1,26 @@
+# Spanish translation of Webform (6.1.0)
+# Copyright (c) 2021 by the Spanish translation team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Webform (6.1.0)\n"
+"POT-Creation-Date: 2021-10-31 10:47+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+msgid "Options"
+msgstr "Opciones"
+msgid "Sex"
+msgstr "Sexo"
+msgid "@label text"
+msgstr "Texto @label"
+msgid "Composite elements"
+msgstr "Elementos compuestos"
+msgid "Demographic"
+msgstr "Demográfico"
+msgid "@title (@type)"
+msgstr "@title (@type)"

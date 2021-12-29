@@ -1,0 +1,21 @@
+<?php
+
+function citas_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  if( $form_id == 'bee_add_reservation_form' ){
+    $form['username'] = array(
+      '#type' => 'entity_autocomplete',
+      '#attributes'    => array(
+        'placeholder' => t('Servicios'),
+        'data-error' => t("Agrega los servicios de la cita.")
+      ),
+      '#selection_settings' => array(
+        'target_bundles' => array('servicio'),
+      ),
+      '#description' => t('Agrega el nombre del servicio que se realizará.'),
+      '#target_type' => 'taxonomy_term',
+      '#tags' => TRUE,
+    );
+  }
+}
+
+?>
